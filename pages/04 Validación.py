@@ -95,7 +95,7 @@ st.write(data.isnull().sum())
 
 components.html(
    """
-<center><font face = "MingLiU" size = 5 color = white  ><b> Fórmula Coeficiente de Correlación de Pearson </b></font></center> <br/>
+<center><font face = "MingLiU" size = 5 color = black  ><b> Fórmula Coeficiente de Correlación de Pearson </b></font></center> <br/>
 
     """,height=40,
 )
@@ -106,12 +106,6 @@ components.html(
 
     """,height=110,
 )
-components.html(
-    """
-<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpZ9zKXKC9vAkIXbTA3CxxeyRnmVBuZasVLzdVs7AEgT79DF_D5xKHA4o9aQgqciyHXEpsNCA4nKmGgu1k1jJ_bv-vNIto_1jb7HbGZs0R3vu97drrGyjIZRAwmRVq1AIwlexdgyB3IsSWmPV0JZRuhDkINbhLUcCRlwGD4dKR3dzPOh0bfqEhWVQC9w/s1460/2.png" width="700" height="700"> </center>
-    """,height=700,
-)
-
 
 code="""
 #Interpretación:
@@ -224,12 +218,13 @@ dfr.rename(columns=diccionario, inplace=True)
 # sns.heatmap(df, xticklabels = df.columns, yticklabels = df.columns, vmin=-1, vmax=1, cmap = 'bwr')
 # plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 20)
 # plt.show()
-components.html(
-   """
-<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX0XpBzhYHmgI-HmYvXg9DKxZ0u4N52TkiOoxdU63PBnQIxfOuMZX3pDhgGebScCtFllLo_AYNoNm9e8eQLWgQYSDb3BsoAbeHzdhrQ9iAc7Md8Fm90rx-of4hAUwL9in5ZDFF5Leg4TrwFQbzWCtYFrmdkQdK9D39hNJlupTc0-KzYSaUC6ZacQA4qw/s1460/4.png"></center><br/>
 
-    """,
+components.html(
+    """
+<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX0XpBzhYHmgI-HmYvXg9DKxZ0u4N52TkiOoxdU63PBnQIxfOuMZX3pDhgGebScCtFllLo_AYNoNm9e8eQLWgQYSDb3BsoAbeHzdhrQ9iAc7Md8Fm90rx-of4hAUwL9in5ZDFF5Leg4TrwFQbzWCtYFrmdkQdK9D39hNJlupTc0-KzYSaUC6ZacQA4qw/s1460/4.png" width="700" height="700"> </center>
+    """,height=700,
 )
+
 #fig1, ax = plt.subplots()
 #sns.heatmap(dfr, xticklabels = dfr.columns, yticklabels = dfr.columns, vmin=-1, vmax=1, cmap = 'bwr')
 #plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 20)
