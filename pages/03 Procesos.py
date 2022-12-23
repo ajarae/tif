@@ -164,7 +164,7 @@ components.html(
     """
 
 <center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglowCz3JVIsPlVcVXo4H3Vle292h8M9nA3LYpzAoqKNkZyEZIOHjUIV13M61gto1DsdxnWaweljEMzGoQXz5TGXHpp_9Q8TINLQRtb9jq-irVmy4CmzMm5GtrMZmXXmKwDWX2boxRzBe5GYguX_SN_8bEncQAb0m7sZaySai42wl1GoqNQoasvsileWw/s1460/1.png" width="700" height="700"> </center>
-    """,height=100,
+    """,height=700,
 )
 
 
