@@ -4,7 +4,7 @@ import streamlit as st
 #import matplotlib.pyplot as plt
 #import matplotlib
 #import seaborn as sns
-from scipy.spatial.distance import euclidean
+#from scipy.spatial.distance import euclidean
 import time
 import streamlit.components.v1 as components
 
