@@ -161,7 +161,7 @@ st.code(code, language='python')
 #plt.colorbar())
 #plt.show()
 st.markdown("""
-![1](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglowCz3JVIsPlVcVXo4H3Vle292h8M9nA3LYpzAoqKNkZyEZIOHjUIV13M61gto1DsdxnWaweljEMzGoQXz5TGXHpp_9Q8TINLQRtb9jq-irVmy4CmzMm5GtrMZmXXmKwDWX2boxRzBe5GYguX_SN_8bEncQAb0m7sZaySai42wl1GoqNQoasvsileWw/s320/1.png)
+![1](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX0XpBzhYHmgI-HmYvXg9DKxZ0u4N52TkiOoxdU63PBnQIxfOuMZX3pDhgGebScCtFllLo_AYNoNm9e8eQLWgQYSDb3BsoAbeHzdhrQ9iAc7Md8Fm90rx-of4hAUwL9in5ZDFF5Leg4TrwFQbzWCtYFrmdkQdK9D39hNJlupTc0-KzYSaUC6ZacQA4qw/w945-h600-p-k-no-nu/4.png)
 """)
 
 components.html(
