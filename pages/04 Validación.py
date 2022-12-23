@@ -6,7 +6,7 @@ import pandas as pd
 #import matplotlib.pyplot as plt
 #import matplotlib
 #import seaborn as sns
-from scipy.spatial.distance import euclidean
+#from scipy.spatial.distance import euclidean
 
 st.set_page_config(page_title="Validación", page_icon="📈")
 
