@@ -201,13 +201,14 @@ df.rename(columns=diccionario, inplace=True)
 # sns.heatmap(df, xticklabels = df.columns, yticklabels = df.columns, vmin=-1, vmax=1, cmap = 'YlOrRd')
 # plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 20)
 # plt.show()
+
 components.html(
     """
-    
-<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpZ9zKXKC9vAkIXbTA3CxxeyRnmVBuZasVLzdVs7AEgT79DF_D5xKHA4o9aQgqciyHXEpsNCA4nKmGgu1k1jJ_bv-vNIto_1jb7HbGZs0R3vu97drrGyjIZRAwmRVq1AIwlexdgyB3IsSWmPV0JZRuhDkINbhLUcCRlwGD4dKR3dzPOh0bfqEhWVQC9w/s320/2.png"></center><br/>
 
-    """,
+<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpZ9zKXKC9vAkIXbTA3CxxeyRnmVBuZasVLzdVs7AEgT79DF_D5xKHA4o9aQgqciyHXEpsNCA4nKmGgu1k1jJ_bv-vNIto_1jb7HbGZs0R3vu97drrGyjIZRAwmRVq1AIwlexdgyB3IsSWmPV0JZRuhDkINbhLUcCRlwGD4dKR3dzPOh0bfqEhWVQC9w/s320/2.png" width="700" height="700"> </center>
+    """,height=700,
 )
+
 #fig1, ax = plt.subplots()
 #sns.heatmap(df, xticklabels = df.columns, yticklabels = df.columns, vmin=-1, vmax=1, cmap = 'YlOrRd')
 #plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 20)
