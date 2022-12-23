@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# coding: utf-8
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -162,7 +164,7 @@ st.code(code, language='python')
 components.html(
     """
     
-<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglowCz3JVIsPlVcVXo4H3Vle292h8M9nA3LYpzAoqKNkZyEZIOHjUIV13M61gto1DsdxnWaweljEMzGoQXz5TGXHpp_9Q8TINLQRtb9jq-irVmy4CmzMm5GtrMZmXXmKwDWX2boxRzBe5GYguX_SN_8bEncQAb0m7sZaySai42wl1GoqNQoasvsileWw/s320/1.png"></center><br/>
+<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglowCz3JVIsPlVcVXo4H3Vle292h8M9nA3LYpzAoqKNkZyEZIOHjUIV13M61gto1DsdxnWaweljEMzGoQXz5TGXHpp_9Q8TINLQRtb9jq-irVmy4CmzMm5GtrMZmXXmKwDWX2boxRzBe5GYguX_SN_8bEncQAb0m7sZaySai42wl1GoqNQoasvsileWw/s320/1.png" width="200" height="200"></center><br/>
 
     """,
 )
