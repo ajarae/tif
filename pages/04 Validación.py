@@ -3,9 +3,9 @@ import time
 import numpy as np
 import streamlit.components.v1 as components
 import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib
-import seaborn as sns
+#import matplotlib.pyplot as plt
+#import matplotlib
+#import seaborn as sns
 from scipy.spatial.distance import euclidean
 
 st.set_page_config(page_title="Validación", page_icon="📈")
