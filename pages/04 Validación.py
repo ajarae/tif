@@ -106,6 +106,11 @@ components.html(
 
     """,height=110,
 )
+components.html(
+    """
+<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpZ9zKXKC9vAkIXbTA3CxxeyRnmVBuZasVLzdVs7AEgT79DF_D5xKHA4o9aQgqciyHXEpsNCA4nKmGgu1k1jJ_bv-vNIto_1jb7HbGZs0R3vu97drrGyjIZRAwmRVq1AIwlexdgyB3IsSWmPV0JZRuhDkINbhLUcCRlwGD4dKR3dzPOh0bfqEhWVQC9w/s1460/2.png" width="700" height="700"> </center>
+    """,height=700,
+)
 
 
 code="""
@@ -184,9 +189,9 @@ st.code(code, language='python')
 #plt.show()
 #<center><img src=""width="290" height="85" > </center><br/>
 components.html(
-   """
-<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4krD2rVOnY7zWIPvkTOwd81NagykaOxXWW0qIYwDmMg3NiwLSrjZWUypfwjoBTS1haJNLAuabV14Np6b2UyONXQBAm5xuyQx4hj9KtcF38-8Q1HNwBXa5jpVFOlhMQmAE0HQCHQSJHnyMH3eHNJOyiElp_h-IiAnXcgZW5bbzL8ciHnRtCaPNT8c2Mw/s320/3.png"></center><br/>
-    """,
+    """
+<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4krD2rVOnY7zWIPvkTOwd81NagykaOxXWW0qIYwDmMg3NiwLSrjZWUypfwjoBTS1haJNLAuabV14Np6b2UyONXQBAm5xuyQx4hj9KtcF38-8Q1HNwBXa5jpVFOlhMQmAE0HQCHQSJHnyMH3eHNJOyiElp_h-IiAnXcgZW5bbzL8ciHnRtCaPNT8c2Mw/s1460/3.png" width="700" height="700"> </center>
+    """,height=700,
 )
 
 #fig, ax = plt.subplots()
@@ -221,7 +226,7 @@ dfr.rename(columns=diccionario, inplace=True)
 # plt.show()
 components.html(
    """
-<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX0XpBzhYHmgI-HmYvXg9DKxZ0u4N52TkiOoxdU63PBnQIxfOuMZX3pDhgGebScCtFllLo_AYNoNm9e8eQLWgQYSDb3BsoAbeHzdhrQ9iAc7Md8Fm90rx-of4hAUwL9in5ZDFF5Leg4TrwFQbzWCtYFrmdkQdK9D39hNJlupTc0-KzYSaUC6ZacQA4qw/s320/4.png"></center><br/>
+<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX0XpBzhYHmgI-HmYvXg9DKxZ0u4N52TkiOoxdU63PBnQIxfOuMZX3pDhgGebScCtFllLo_AYNoNm9e8eQLWgQYSDb3BsoAbeHzdhrQ9iAc7Md8Fm90rx-of4hAUwL9in5ZDFF5Leg4TrwFQbzWCtYFrmdkQdK9D39hNJlupTc0-KzYSaUC6ZacQA4qw/s1460/4.png"></center><br/>
 
     """,
 )
