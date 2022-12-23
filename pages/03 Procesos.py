@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
-# import matplotlib
+import matplotlib
 import seaborn as sns
 from scipy.spatial.distance import euclidean
 import time
@@ -159,10 +159,19 @@ st.code(code, language='python')
 #plt.colorbar())
 #plt.show()
 
-fig, ax = plt.subplots()
-sns.heatmap(m_corr_d_pandas, vmin=-1, vmax=1, cmap = 'YlOrRd')
-plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 10)
-st.pyplot(fig)
+components.html(
+    """
+    
+<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglowCz3JVIsPlVcVXo4H3Vle292h8M9nA3LYpzAoqKNkZyEZIOHjUIV13M61gto1DsdxnWaweljEMzGoQXz5TGXHpp_9Q8TINLQRtb9jq-irVmy4CmzMm5GtrMZmXXmKwDWX2boxRzBe5GYguX_SN_8bEncQAb0m7sZaySai42wl1GoqNQoasvsileWw/s320/1.png"></center><br/>
+
+    """,
+)
+#fig, ax = plt.subplots()
+#sns.heatmap(m_corr_d_pandas, vmin=-1, vmax=1, cmap = 'YlOrRd')
+#plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 10)
+#st.pyplot(fig)
+
+
 
 code="""
 #Version Extendida
@@ -185,15 +194,21 @@ for i, correo in enumerate(correos):
     diccionario.update({i:correo})
 df.rename(columns=diccionario, inplace=True)
 
-plt.figure(figsize = (200,200))
+#plt.figure(figsize = (200,200))
 # sns.heatmap(df, xticklabels = df.columns, yticklabels = df.columns, vmin=-1, vmax=1, cmap = 'YlOrRd')
 # plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 20)
 # plt.show()
+components.html(
+    """
+    
+<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpZ9zKXKC9vAkIXbTA3CxxeyRnmVBuZasVLzdVs7AEgT79DF_D5xKHA4o9aQgqciyHXEpsNCA4nKmGgu1k1jJ_bv-vNIto_1jb7HbGZs0R3vu97drrGyjIZRAwmRVq1AIwlexdgyB3IsSWmPV0JZRuhDkINbhLUcCRlwGD4dKR3dzPOh0bfqEhWVQC9w/s320/2.png"></center><br/>
 
-fig1, ax = plt.subplots()
-sns.heatmap(df, xticklabels = df.columns, yticklabels = df.columns, vmin=-1, vmax=1, cmap = 'YlOrRd')
-plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 20)
-st.pyplot(fig1)
+    """,
+)
+#fig1, ax = plt.subplots()
+#sns.heatmap(df, xticklabels = df.columns, yticklabels = df.columns, vmin=-1, vmax=1, cmap = 'YlOrRd')
+#plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 20)
+#st.pyplot(fig1)
 
 st.markdown(""" ## **5.- Resultados**
 **Algoritmo de Busqueda**""")
