@@ -161,16 +161,15 @@ st.code(code, language='python')
 #plt.colorbar())
 #plt.show()
 st.markdown("""
-![1](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX0XpBzhYHmgI-HmYvXg9DKxZ0u4N52TkiOoxdU63PBnQIxfOuMZX3pDhgGebScCtFllLo_AYNoNm9e8eQLWgQYSDb3BsoAbeHzdhrQ9iAc7Md8Fm90rx-of4hAUwL9in5ZDFF5Leg4TrwFQbzWCtYFrmdkQdK9D39hNJlupTc0-KzYSaUC6ZacQA4qw/w945-h600-p-k-no-nu/4.png ,width="945", height="600")
+![1](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX0XpBzhYHmgI-HmYvXg9DKxZ0u4N52TkiOoxdU63PBnQIxfOuMZX3pDhgGebScCtFllLo_AYNoNm9e8eQLWgQYSDb3BsoAbeHzdhrQ9iAc7Md8Fm90rx-of4hAUwL9in5ZDFF5Leg4TrwFQbzWCtYFrmdkQdK9D39hNJlupTc0-KzYSaUC6ZacQA4qw/w945-h600-p-k-no-nu/4.png)
 """)
 
 components.html(
     """
-    
-<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX0XpBzhYHmgI-HmYvXg9DKxZ0u4N52TkiOoxdU63PBnQIxfOuMZX3pDhgGebScCtFllLo_AYNoNm9e8eQLWgQYSDb3BsoAbeHzdhrQ9iAc7Md8Fm90rx-of4hAUwL9in5ZDFF5Leg4TrwFQbzWCtYFrmdkQdK9D39hNJlupTc0-KzYSaUC6ZacQA4qw/w945-h600-p-k-no-nu/4.png" width="945" height="600"></center><br/>
-
+<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX0XpBzhYHmgI-HmYvXg9DKxZ0u4N52TkiOoxdU63PBnQIxfOuMZX3pDhgGebScCtFllLo_AYNoNm9e8eQLWgQYSDb3BsoAbeHzdhrQ9iAc7Md8Fm90rx-of4hAUwL9in5ZDFF5Leg4TrwFQbzWCtYFrmdkQdK9D39hNJlupTc0-KzYSaUC6ZacQA4qw/w945-h600-p-k-no-nu/4.png" width="945", height="600"></center><br/>
     """,height="1000",
 )
+
 #fig, ax = plt.subplots()
 #sns.heatmap(m_corr_d_pandas, vmin=-1, vmax=1, cmap = 'YlOrRd')
 #plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 10)
