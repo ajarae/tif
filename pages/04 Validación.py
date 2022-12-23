@@ -95,8 +95,8 @@ st.write(data.isnull().sum())
 
 components.html(
    """
-<center> <h3>Fórmula Coeficiente de Correlación de Pearson</h3> </center>  
-<center> <h3> </h3> </center> 
+<center><font face = "MingLiU" size = 5 color = white  ><b> Fórmula Coeficiente de Correlación de Pearson </b></font></center> <br/>
+
     """,height=40,
 )
 
@@ -182,11 +182,17 @@ st.code(code, language='python')
 #plt.title('MAPA DE CALOR DE LA CORRELACIÓN', fontsize = 10))
 #plt.colorbar())
 #plt.show()
+#<center><img src=""width="290" height="85" > </center><br/>
+components.html(
+   """
+<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4krD2rVOnY7zWIPvkTOwd81NagykaOxXWW0qIYwDmMg3NiwLSrjZWUypfwjoBTS1haJNLAuabV14Np6b2UyONXQBAm5xuyQx4hj9KtcF38-8Q1HNwBXa5jpVFOlhMQmAE0HQCHQSJHnyMH3eHNJOyiElp_h-IiAnXcgZW5bbzL8ciHnRtCaPNT8c2Mw/s320/3.png"></center><br/>
+    """,
+)
 
-fig, ax = plt.subplots()
-sns.heatmap(matrix, vmin=-1, vmax=1, cmap = 'bwr')
-plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 10)
-st.pyplot(fig)
+#fig, ax = plt.subplots()
+#sns.heatmap(matrix, vmin=-1, vmax=1, cmap = 'bwr')
+#plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 10)
+#st.pyplot(fig)
 
 code="""
 #Version Extendida
@@ -209,15 +215,20 @@ for i, correo in enumerate(email):
     diccionario.update({i:email})
 dfr.rename(columns=diccionario, inplace=True)
 
-plt.figure(figsize = (200,200))
+#plt.figure(figsize = (200,200))
 # sns.heatmap(df, xticklabels = df.columns, yticklabels = df.columns, vmin=-1, vmax=1, cmap = 'bwr')
 # plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 20)
 # plt.show()
+components.html(
+   """
+<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX0XpBzhYHmgI-HmYvXg9DKxZ0u4N52TkiOoxdU63PBnQIxfOuMZX3pDhgGebScCtFllLo_AYNoNm9e8eQLWgQYSDb3BsoAbeHzdhrQ9iAc7Md8Fm90rx-of4hAUwL9in5ZDFF5Leg4TrwFQbzWCtYFrmdkQdK9D39hNJlupTc0-KzYSaUC6ZacQA4qw/s320/4.png"></center><br/>
 
-fig1, ax = plt.subplots()
-sns.heatmap(dfr, xticklabels = dfr.columns, yticklabels = dfr.columns, vmin=-1, vmax=1, cmap = 'bwr')
-plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 20)
-st.pyplot(fig1)
+    """,
+)
+#fig1, ax = plt.subplots()
+#sns.heatmap(dfr, xticklabels = dfr.columns, yticklabels = dfr.columns, vmin=-1, vmax=1, cmap = 'bwr')
+#plt.title("MAPA DE CALOR DE LA CORRELACIÓN", fontsize = 20)
+#st.pyplot(fig1)
 
 st.markdown(""" ## **Resultados**
 **Algoritmo de Busqueda**""")
