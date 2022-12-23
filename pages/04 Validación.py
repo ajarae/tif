@@ -95,7 +95,7 @@ st.write(data.isnull().sum())
 
 components.html(
    """
-<center><font face = "MingLiU" size = 5 color = black  ><b> Fórmula Coeficiente de Correlación de Pearson </b></font></center> <br/>
+<center><font size = 5 color = white  ><b> Fórmula Coeficiente de Correlación de Pearson </b></font></center> <br/>
 
     """,height=40,
 )
